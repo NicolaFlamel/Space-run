@@ -1,0 +1,3 @@
+
+<div class='player-score'> Name:Andriy; Score:2625; Level:24;</div>
+<div class='player-score'> Name:qwerty; Score:2110; Level:21;</div>
