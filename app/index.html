@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space run</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/my-style.css"/>
+    <link rel="stylesheet" href="lib/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.min.css"/>
+</head>
+<body>
+
+<div id='gameCanvas'>
+    <div class="endGame"></div>
+    <div id="wrapper">
+        <div id="score-board"></div>
+        <div id="lifes-board"></div>
+        <div id="menu">
+            <div class="board">
+                <h1>Space run</h1>
+                <button type="button" class="btn btn-primary btn-lg btn-block start" onclick="setup()">Start</button>
+                <br/>
+                <button type="button" class="btn btn-primary btn-lg btn-block score">Score</button>
+                <br/>
+                <button type="button" class="btn btn-primary btn-lg btn-block about">About</button>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="score-modal"></div>
+<div id="about-modal">
+    Hi dear friend, my name is Artem! I welcome you in my game "Space run". The rules are simple, you need to get to
+    their base but in your way will meet asteroids, your task will be to avoid the blow. But do not think that it's
+    simple. Through steady period of time will increase the speed of the asteroid, and you will have only three lives.
+    Controls are simple A - move left, D - move right. That's all. Good luck!
+</div>
+
+<script src="js/game.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/keyboard.js"></script>
+<script src="js/jquery.js"></script>
+<script src="lib/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="js/score.js"></script>
+
+</body>
+</html>
