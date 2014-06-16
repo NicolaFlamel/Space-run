@@ -5,7 +5,7 @@ Simple runner.
 Three.js,Node.js,Express.
 <br>
 Here is how it looks.
-<img src="https://lh4.googleusercontent.com/krzBwVRv7uqt0X80G3ShuEX1bwb_V3_wzrhnWNKGlvr5C4N76S5EgYNRT4ANjimiM79IJw=w1254-h520">
+<img src="https://lh6.googleusercontent.com/ZQJSxfIo5-HrJHZBolauTu2Sy1uTFUe8eLXB8JKNsdg3Wy4vRWvWhrt7CCUKVlt6jlYnrw=w1254-h477">
 =========
 
 Simple WebGL, Three.js browser game.
